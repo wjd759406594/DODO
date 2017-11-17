@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>dodo.MonkeyApp</string>
+				<string>com.nationsky.rmad</string>
 				<key>bundle-version</key>
 				<string>6.5.21</string>
 				<key>kind</key>
