@@ -4,11 +4,29 @@
 		<meta charset="utf-8" />
 		<meta content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width" name="viewport"/>
         <meta content="telephone=no" name="format-detection"/>
-		<title>汪小东的个人空间</title>
+		<title>微信下载</title>
 	</head>
+	<script>
+		function download()
+		{
+			window.location.href="itms-services://?action=download-manifest&url=https://wjd759406594.github.io/dodo.github.io/manifest.plist";
+		}
+		function showUse()
+		{
+			window.location.href = "./showUse.html";
+		}
+	</script>
 	<body style="background-color: rgb(123,206,253);font-family:arial;background-image: url(./img/1.jpg);background-size: cover;">
 		<div style="text-align: center;margin-top:150px;font-size: 15px;color: white;">
-			简介：此版本微信
+			简介：修改微信步数，自动抢红包（可设置延迟，过滤指定群），消息防撤回，后台长时间运行，系统回收友情提醒等。
+		</div>
+		<div onclick="download()" style="text-align: center;height: 40px;margin-top:280px;margin-left: 60px;margin-right: 60px;font-size: 18px;color: white; border:1.5px solid #FFF;border-radius: 10px;">
+			<div style="margin-top: 5px;">
+				立即安装
+			</div>
+		</div>
+		<div onclick="showUse()" style="text-align: center;margin-top: 20px;font-size: 15px;color: orange;">
+			使用教程
 		</div>
 	</body>
 </html>
